@@ -1,0 +1,8 @@
+.idea
+.gitmessage.txt
+cifar10/**
+**/__pycache__
+model
+**/wandb
+lightning_logs
+logs/
