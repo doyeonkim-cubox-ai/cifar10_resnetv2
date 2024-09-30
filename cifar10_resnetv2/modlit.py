@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torchvision
 import lightning as L
-from lightning.pytorch.utilities.types import OptimizerLRScheduler
 from torchmetrics import Accuracy
 from cifar10_resnetv2 import model
 
