@@ -22,7 +22,7 @@ python -m cifar10_resnetv2.train -model {모델}
 python -m cifar10_resnetv2.test -model {모델}
 ```
 
-##### 2. statistics (To Be Revised)
+##### 2. statistics
 | model    | # layers | # params | error(%) |
 |----------|:---------|----------|----------|
 | resnet   | 110      | 1.7M     | 7.86     |
@@ -31,9 +31,9 @@ python -m cifar10_resnetv2.test -model {모델}
 | resnetV2 | 164      | 1.7M     | 6.57     |
 
 
-##### 3. plots (To Be Revised)
+##### 3. plots
 - training loss(v2resnet110 & resnet110)
-- 
+
 <img src="./result/resnet110_train.png" width="400" height="300">
 
 - testing error(v2resnet110 & resnet110)
